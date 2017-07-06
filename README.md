@@ -58,3 +58,7 @@ double: ContentFontSize >> Font size of displayed text
 ContentAlignment >> Center, Stretch
 ```
 
+**Event**
+```
+Toggled
+```
