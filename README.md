@@ -48,17 +48,26 @@ Flat toggle switch control for UWP
 
 
 **Properties**
-```
-bool: IsOn
-Brush: OnBgColor, OffBgColor, BgColor, ButtonColor, TextColor
-string: OnContent, OffContent, Content
-double: SwitchWidth (default is auto width)
-double: Size >> changes switch size and font size
-double: ContentFontSize >> Font size of displayed text
-ContentAlignment >> Center, Stretch
-```
+
+bool: `IsOn`
+
+Brush: `OnBgColor`, `OffBgColor`, `BgColor`, `ButtonColor`, `TextColor`
+
+string: `OnContent`, `OffContent`, `Content`
+
+double: `SwitchWidth` (default is auto width)
+
+double: `Size` >> changes switch size and font size
+
+double: `ContentFontSize` >> Font size of displayed text
+
+`ContentAlignment` >> Center, Stretch
+
+
 
 **Event**
-```
-Toggled
-```
+
+
+*Toggled*
+
+
