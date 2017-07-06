@@ -30,9 +30,31 @@ Flat toggle switch control for UWP
 **Enabled/Disabled Switch**  
 ![](https://github.com/ersuman/FlatToggleSwitch/blob/master/EnabledD.PNG)
 
+```xaml
+<esgee:FlatToggleSwitch OnContent="Enabled" OffContent="Disabled" OffBgColor="Purple"
+                                    SwitchWidth="120" ContentAlignment="Stretch" Margin="0,5"/>
+```
 ![](https://github.com/ersuman/FlatToggleSwitch/blob/master/disabledPurple.PNG)
+
+```xaml
+<esgee:FlatToggleSwitch OnContent="Enabled" OffContent="Disabled" OnBgColor="Blue"
+                                    SwitchWidth="120" ContentAlignment="Center" IsOn="True"/>
+```
 ![](https://github.com/ersuman/FlatToggleSwitch/blob/master/enabled%20blue.PNG)
 
 **Button with special symbol as content (Unicode)**
-
+                              
 ![](https://github.com/ersuman/FlatToggleSwitch/blob/master/tickCross.PNG)
+
+
+**Properties**
+```
+bool: IsOn
+Brush: OnBgColor, OffBgColor, BgColor, ButtonColor, TextColor
+string: OnContent, OffContent, Content
+double: SwitchWidth (default is auto width)
+double: Size >> changes switch size and font size
+double: ContentFontSize >> Font size of displayed text
+ContentAlignment >> Center, Stretch
+```
+
