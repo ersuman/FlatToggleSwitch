@@ -67,7 +67,6 @@ double: `ContentFontSize` >> Font size of displayed text
 
 **Event**
 
-
-*Toggled*
+`Toggled`
 
 
