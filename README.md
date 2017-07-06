@@ -61,8 +61,7 @@ double: `Size` >> changes switch size and font size
 
 double: `ContentFontSize` >> Font size of displayed text
 
-`ContentAlignment` >> Center, Stretch
-
+`ContentAlignment` >> *Center* (allign text at center), *Stretch* (allign text near the button)
 
 
 **Event**
