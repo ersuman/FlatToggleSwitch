@@ -24,10 +24,10 @@ Flat toggle switch control for UWP
 </Page>
 ```  
             
-**On/Off Switch**  
+**Switch with default content (ON/OFF)**  
 ![ON OFF Switch](https://github.com/ersuman/FlatToggleSwitch/blob/master/OnOff1.PNG)
 
-**Enabled/Disabled Switch**  
+**Switch with default content (Enabled/Disabled)**  
 ![](https://github.com/ersuman/FlatToggleSwitch/blob/master/EnabledD.PNG)
 
 ```xaml
