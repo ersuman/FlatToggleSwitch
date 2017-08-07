@@ -69,3 +69,5 @@ double: `ContentFontSize` >> Font size of displayed text
 `Toggled`
 
 
+*Don't forget to give Star if you liked it.*
+
