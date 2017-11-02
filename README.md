@@ -47,6 +47,10 @@ Flat toggle switch control for UWP
 
 ![](https://github.com/ersuman/FlatToggleSwitch/blob/master/enabled%20green%20yellow.PNG)
 
+```xaml
+<esgee:FlatToggleSwitch OnContent="Enabled" OffContent="Disabled" IsOn="True"
+                        TextColor="Yellow" ButtonColor="Yellow" SwitchWidth="120"  />
+```
 
 **Toggle Switch with special symbol as content (Unicode)**
                               
