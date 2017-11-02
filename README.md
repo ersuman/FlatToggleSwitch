@@ -42,6 +42,9 @@ Flat toggle switch control for UWP
 ```
 ![](https://github.com/ersuman/FlatToggleSwitch/blob/master/enabled%20blue.PNG)
 
+**Toggle Switch with Custom color for text and button**
+![](https://github.com/ersuman/FlatToggleSwitch/blob/master/enabled%20green%20yellow.PNG)
+
 **Toggle Switch with special symbol as content (Unicode)**
                               
 ![](https://github.com/ersuman/FlatToggleSwitch/blob/master/tickCross.PNG)
