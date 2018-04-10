@@ -6,18 +6,23 @@ Flat toggle switch control for UWP
     ...
     xmlns:esgee="using:esgeeFlatToggleSwitch">
     <StackPanel>
+        <!-- Switch with default content (ON/OFF) -->
         <esgee:FlatToggleSwitch Margin="0,5"/>
         <esgee:FlatToggleSwitch IsOn="True"/>
 
+        <!--Switch with custom content (Enabled/Disabled) -->
         <esgee:FlatToggleSwitch OnContent="Enabled" OffContent="Disabled" Margin="0,5"/>
+        <!--Toggle Switch with Custom color for text and button -->
         <esgee:FlatToggleSwitch OnContent="Enabled" OffContent="Disabled" TextColor="Yellow" 
                                 ButtonColor="Yellow" IsOn="True"/>
 
+        <!-- you can also adjust switch width, content alignment -->
         <esgee:FlatToggleSwitch OnContent="Enabled" OffContent="Disabled" OffBgColor="Purple"
                                 SwitchWidth="120" ContentAlignment="Stretch" Margin="0,5"/>
         <esgee:FlatToggleSwitch OnContent="Enabled" OffContent="Disabled" OnBgColor="Blue"
                                 SwitchWidth="120" ContentAlignment="Center" IsOn="True"/>
 
+        <!--Toggle Switch also supports special symbol as content (Unicode) -->
         <esgee:FlatToggleSwitch OnContent="✓" OffContent="✘" Margin="0,5"/>
         <esgee:FlatToggleSwitch OnContent="✓" OffContent="✘" IsOn="True"/>
     </StackPanel>
