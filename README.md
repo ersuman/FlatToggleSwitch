@@ -1,6 +1,7 @@
 # FlatToggleSwitch
 Flat toggle switch control for UWP
 
+NuGet Link: https://www.nuget.org/packages/esgeeFlatToggleSwitch/
 ```xaml
 <Page
     ...
